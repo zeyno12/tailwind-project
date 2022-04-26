@@ -486,3 +486,7 @@ margin-top: 10px;
     font-size: small;
     color: rgb(54, 54, 90);
 }
+.focus-element{
+    display: flex;
+    justify-content: end;
+}
