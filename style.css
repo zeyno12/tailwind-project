@@ -1,0 +1,488 @@
+
+.head{
+    margin-right: 20px;
+}
+.head p{
+    font-size: 30px;
+    align-content: space-between;
+    background-color: #f64900;
+    color: white;
+    padding: 10px;
+    border-radius: 500px;
+}
+.follow-links{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    font-size: larger;
+    margin-left: 10px;
+}
+.head-2{
+    position: relative;
+}
+.head-2 svg{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: gray;
+}
+.head-2 input {
+    border:gainsboro;
+    background-color: rgb(243, 241, 241);
+    width: 200px;
+    height: 15px;
+    border-radius: 7px ;
+    padding: 15px;
+}
+.head-2 :hover{
+   border: 1px solid #f64900;
+   width: 900px;
+}
+.follow-links a{
+   text-decoration: none;
+   color:rgb(89, 97, 107) ;
+}
+.follow-links a:hover{
+   color: #f64900;
+}
+.help-links{
+    display: flex;
+    justify-content: end;
+    justify-items: center;
+    width: 50%;
+    font-size: larger;
+    color:rgb(89, 97, 107) ;
+}
+.help-links :hover{
+    color: #f64900;
+}
+.help-links a {
+    text-decoration: none;
+    color:rgb(89, 97, 107) ;
+    margin-left: 30px;
+}
+.head-button button{
+    background-color: #f64900;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.help-links span{
+    margin-left: 10px;
+}
+nav{
+   display: flex;
+   align-items:center ;
+   padding: 10px;
+   border-bottom: 1px solid gray;
+}
+.small-text a {
+    text-decoration: none;
+    color: rgb(74, 89, 109);
+}
+.small-text{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: small;
+}
+.header-main{
+    display: flex;
+    margin-top: 30px;
+    width: 55%;
+    justify-content: space-between;
+}
+.header-main img{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+.header-text{
+    font-size: larger;
+    line-height: 40px;
+}
+.header-text b{
+    font-size: 30px;
+}
+.header-text b > svg{
+    color: gray;
+}
+.header-text span{
+    color: gray;
+}
+.header-text button > svg{
+    color: #f64900;
+}
+.header-text button > b{
+    color: #f64900;
+    font-size: medium;
+}
+.header-text button:hover{
+color: #f64900;
+}
+.header-text button{
+    color: gray;
+    padding: 8px;
+}
+.main-1{
+    border: 1px solid;
+    width: 750px;
+    padding: 30px;
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-left: 80px;
+    height: 600px;
+}
+.selection-1 img{
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.section-2 p{
+    font-size: 15px;
+}
+.button-end{
+    display: flex;
+    justify-content: end;
+}
+.buttons-2{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.b-1 button{
+    border: 1px solid rgb(0, 183, 255);
+    background-color: inherit;
+    color: rgb(0, 183, 255);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80px;
+}
+.b-2 button{
+    border: 1px solid rgb(1, 1, 117);
+    background-color: inherit;
+    padding: 9px;
+    border-radius: 5px;
+    width: 80px;
+    color: rgb(1, 1, 117);
+}
+.b-2 b{
+    font-size: large;
+}
+.b-3  button{
+    background-color: inherit; 
+    padding: 8px;
+    color: rgb(99, 99, 99);
+    border-radius: 5px;
+    border:  1px solid rgb(128, 127, 127); 
+}
+.b-4 button{
+    background-color: inherit; 
+    padding: 8px;
+    color: rgb(99, 99, 99);
+    border-radius: 5px;
+    border:  1px solid rgb(128, 127, 127); 
+}
+.button-end button{
+    background-color: inherit; 
+    padding: 8px;
+    width: 150px;
+    color: rgb(99, 99, 99);
+    border-radius: 5px;
+    border:  1px solid rgb(128, 127, 127);
+}
+.b-1 button:hover{
+    background-color:rgb(0, 183, 255) ;
+    color: white;
+}
+.b-2 button:hover{
+    background-color:rgb(1, 1, 117) ;
+    color: white;
+}
+.b-3 button:hover{
+    background-color:rgb(171, 171, 171);
+}
+.b-4 button:hover{
+    background-color: rgb(171, 171, 171);
+}
+.main-2{
+    width: 750px;
+    border: 1px solid;
+    margin-top: 20px;
+    border-radius: 6px;
+    margin-left: 80px;
+    padding: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-m2{
+    font-size: large;
+    color: rgb(41, 39, 39);
+}
+.button-m2 button{
+    border-radius: 3px;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: inherit;
+}
+.button-m2 button:hover{
+    border: 1px solid #f64900;
+}
+.discussion {
+    width: 750px;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    color: gray;
+}
+.form{
+    width: 750px;
+    margin-top: 10px;
+    margin-left: 80px;
+    padding: 30px;
+    border: 1px solid; 
+    display: flex;
+    border-radius: 5px;
+}
+.form input[type="text"]{
+    width: 600px;
+    padding: 7px;
+}
+.form input[type="submit"]{
+    background-color: #f64900;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+.form svg{
+    margin-right: 10px;
+    margin-top: 5px;
+    color: gray;
+}
+.dialog-1{
+    margin-left: 80px;
+    margin-top: 30px;
+    display: flex;
+}
+.blok{
+    margin-left: 30px;
+}
+.image-d img{
+    border-radius: 100px;
+}
+.blok a{
+    text-decoration: none;
+    color: rgb(18, 18, 55);
+}
+.blok span{
+    background-color: rgb(176, 254, 176);
+    color: rgb(6, 59, 6);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: small;
+}
+.green-p{
+    color: rgb(90, 88, 88);
+}
+.share{
+    display:flex;
+    width: 60%;
+    justify-content: space-between;
+    color: rgb(107, 106, 106);
+}
+.bottom-svg{
+    margin-top: 20px;
+}
+.share-2{
+    display:flex;
+    width: 60%;
+    justify-content: space-between;
+    color: rgb(107, 106, 106);
+}
+.vladimir a{
+color: #f64900;
+text-decoration: none;
+}
+.Image-d2 img{
+    border-radius: 200px;
+    font-size: small;
+}
+.dialog{
+    border: 1px solid;
+    width: 800px;
+    border-radius: 5px;
+    margin-left: 80px;
+    padding: 5px;
+}
+.dialog-2{
+    margin-left: 80px;
+    margin-top: 30px;
+    display: flex;
+}
+.a-black a {
+    color:rgb(18, 18, 55) ;
+    display: block;
+    margin-top: 10px;
+}
+.a-black{
+    margin-left: 20px;
+}
+.a-black span{
+    color: gray;
+}
+.all{
+    display: flex;
+}
+.button-aside{
+    display: flex;
+}
+.button-a1 a{
+text-decoration: none;
+color: rgb(16, 16, 42);
+padding: 30px;
+}
+.button-a1 button{
+    padding: 16px;
+    border-radius: 5px;
+    background-color: inherit;
+    margin-top: 40px;
+}
+.button-a2 button{
+    margin-left: 10px;
+    padding: 15px;
+    width: 150px;
+    margin-top: 40px;
+    background-color: #f64900;
+    color: white;
+    border-radius: 5px;
+    
+}
+.aside{
+    margin-left: 30px;
+    width: 30%;
+}
+.aside-image1 img{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   margin-top: 40px;
+}
+.aside-image2 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+ }
+ .hunter img{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-top: 10px;
+ }
+.hunter-main{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.hunter-main2{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.hunter-main3{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.hunter{
+    border: 1px solid ;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.hunter span{
+    font-size: smaller;
+    color: gray;
+    margin-right: 20px;
+    width: 10%;
+}
+.hunter a{
+    text-decoration: none;
+    color: rgb(9, 9, 64);
+    font-weight: bold;
+}
+.hunter-3{
+    margin-left: 30px;
+}
+.hunter p{
+    color: gray;
+}
+.all-section1{
+    display: flex;
+    margin-top: 20px;
+}
+.all-section2{
+    display: flex;
+}
+.all-section3{
+    display: flex;
+}
+.all-section4{
+    display: flex;
+}
+.all-section5{
+    display: flex;
+}
+
+.section img{
+    width: 50px;
+    height: 50px;
+}
+.section span{
+    color: rgb(35, 50, 99);
+    font-size: small;
+}
+.section{
+    margin-top: 30px;
+}
+.section a{
+    text-decoration: none;
+    color: rgb(21, 21, 58);
+    font-weight: bold;
+    font-size: 14px;
+}
+.section p{
+    color: gray;
+    font-size: 16px;
+}
+.section-text1{
+    margin-left: 15px;
+}
+.section-text2{
+    margin-left: 15px;
+}
+.section-text3{
+    margin-left: 15px;
+}
+.section-text4{
+    margin-left: 15px;
+}
+.section-text5{
+    margin-left: 15px;
+}
+.end-link a{
+    text-decoration: none;
+    font-size: small;
+    color: rgb(54, 54, 90);
+}
