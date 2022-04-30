@@ -1,0 +1,93 @@
+body{
+    background-color: plum;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly ;
+    margin-top: 200px;
+    position: relative;
+}
+.w-1 img{
+border-radius: 100%;
+animation: circleworld 3s infinite;
+position: absolute;
+}
+.section-1 img{
+    transition: 3s,4s;
+}
+.section-1 img:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+@keyframes circleworld{
+0% {
+    transform: rotate(120deg);
+    left: 0px;
+    top: 0px;
+}
+ 25% {
+     left: 500px;
+     top: 0px;
+     /* transform: rotate(90deg); */
+ }
+ 50% {
+    left: 500px;
+    top: 500px;
+    transform: rotate(180deg);
+ }
+ 75% {
+     left: 0;
+     top: 500px;
+     transform: rotate(270deg);
+ }
+
+ 100% {
+     left: 0px;
+     top: 0px;
+     transform: rotate(360deg);
+ }
+}
+/* @keyframes circleworld{
+0% {
+    transform: rotate(120deg);
+    left: 0px;
+    top: 0px;
+}
+ 20% {
+     left: 250px;
+     top: 0px;
+     transform: rotate(90deg);
+ }
+ 40% {
+    left: 350px;
+    top: 0px;
+    transform: rotate(180deg);
+ }
+ 60% {
+     left: 220px;
+     top: 220px;
+     transform: rotate(270deg);
+ }
+ 80%{
+     left: 100px;
+     top:100px;
+     transform: rotate(210deg);
+ }
+ 100% {
+     left: 0px;
+     top: 0px;
+     transform: rotate(360deg);
+ }
+} */
